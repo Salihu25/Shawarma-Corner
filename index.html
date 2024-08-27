@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <style>
+      body {
+        background-color: rgba(211, 211, 211, 0.815);
+      }
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+
+      .cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #slideshow {
+        height: 300px;
+        width: 200px;
+        border: solid 5px orangered;
+        border-radius: 20px;
+        background-image: url("burger.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      button {
+        height: 35px;
+        background-color: maroon;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 5px 20px black;
+      }
+      .bottom-bar {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        margin-left: 50px;
+        bottom: 0%;
+        gap: 60px;
+      }
+
+      body {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <img style="height: 40px" src="20240819_025644.jpg" alt="" />
+
+      <img
+        style="height: 40px; width: 30px"
+        src="icons8-menu-50.png"
+        alt="menu"
+      />
+    </div>
+
+    <div class="cont">
+      <div>
+        <div id="slideshow"></div>
+
+        <div id="button">
+          <a href="menu.html"><button>Place Order</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <div>
+        <a href="index.html"><img src="icons8-home-24.png" alt="home" /></a>
+      </div>
+      <div>
+        <a href="#"><img src="icons8-customer-32.png" alt="home" /></a>
+      </div>
+      <div>
+        <a href="cart.html"><img src="icons8-cart-24.png" alt="home" /></a>
+      </div>
+    </div>
+  </body>
+</html>
